@@ -1,0 +1,16 @@
+{
+  "name": "sevenaseven-ai",
+  "version": "2.0.0",
+  "description": "Enterprise-grade Multilingual Telegram AI Bot with KV Memory and Vision support on Cloudflare Workers",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.107.0"
+  },
+  "private": true
+}
